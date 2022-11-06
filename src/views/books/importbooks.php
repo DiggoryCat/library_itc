@@ -5,7 +5,7 @@
             <a class="nav-link active" data-bs-toggle="tab" href="#csv">CSV</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#form">Form</a>
+            <a class="nav-link"  href="index.php?controller=book&action=importbook">Form</a>
         </li>
     </ul>
 
@@ -17,6 +17,6 @@
                 <input type="submit" name="submit_file" value="Submit" />
             </form>
         </div>
-        <div class="tab-pane container fade" id="form">...</div>
+        <div class="tab-pane container fade" id="form"></div>
     </div>
 </div>

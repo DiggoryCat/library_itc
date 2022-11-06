@@ -3,7 +3,7 @@
         <div class="sidebar-header">
             <div class="d-flex justify-content-between">
                 <div class="logo">
-                    <a href="index.html"><img src="http://localhost:8080/PHP2/library/src/assets/images/logo/logo.png" alt="Logo" srcset=""></a>
+                    <a href="index.html"><img src="./src/assets/images/logo/logo.png" alt="Logo" srcset=""></a>
                 </div>
                 <div class="toggler">
                     <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
@@ -28,10 +28,10 @@
                     </a>
                     <ul class="submenu ">
                         <li class="submenu-item ">
-                            <a href="component-alert.html">Tất cả sách</a>
+                            <a href="index.php?controller=book">Tất cả sách</a>
                         </li>
                         <li class="submenu-item ">
-                            <a href="component-alert.html">Nhập thêm sách</a>
+                            <a href="index.php?controller=book&action=importbooks">Nhập thêm sách</a>
                         </li>
                     </ul>
                 </li>
@@ -43,7 +43,7 @@
                     </a>
                     <ul class=" submenu ">
                         <li class=" submenu-item ">
-                            <a href=" component-alert.html">Trả sách</a>
+                            <a href=" index.php?controller=history">Trả sách</a>
                         </li>
                         <li class="submenu-item ">
                             <a href="component-alert.html">Đăng kí mượn</a>

@@ -94,9 +94,9 @@
         </thead>
         <tbody>
             <?php
-            $BookModel = new BookModel();
+            $BookModel = new HistoryModel();
             $month = date('m');
-            $result = $BookModel->getDanhSachMuon($month);
+            $result = $BookModel->getBorrowList($month);
 
             while ($item = $result->fetch()) :
             ?>
@@ -125,7 +125,7 @@
         </thead>
         <tbody>
             <?php
-            $result = $BookModel->getDanhSachTra($month);
+            $result = $BookModel->getReturnList($month);
             while ($item = $result->fetch()) :
             ?>
                 <tr>
