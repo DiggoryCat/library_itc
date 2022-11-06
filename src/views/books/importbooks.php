@@ -17,6 +17,6 @@
                 <input type="submit" name="submit_file" value="Submit" />
             </form>
         </div>
-        <div class="tab-pane container fade" id="form">...</div>
+        <div class="tab-pane container fade" id="form"></div>
     </div>
 </div>
